@@ -5,7 +5,7 @@ def inverse(chaine):
         raise ValueError("Vous devez passer une chaine de caracteres")
     
     if len(chaine)==4:
-        chaine.pop()
+        list(chaine).pop()
     assert np.all([ isinstance(e,str) for e in chaine]), "les elements doivent etre des caracteres"
     print(np.all([ isinstance(e,str) for e in chaine]))
     return "".join(chaine[::-1])
