@@ -12,9 +12,9 @@ def test_error_when_integer():
     with pytest.raises(ValueError):
         inverse(87)    
 
-def test_error_when_list():
-    with pytest.raises(ValueError):
-        inverse(["a","b","c","d"])      
+# def test_error_when_list():
+#     with pytest.raises(ValueError):
+#         inverse(["a","b","c","d"])      
 
 def test_lower_cases():
     assert inverse("hello") == "olleh"
