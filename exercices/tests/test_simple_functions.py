@@ -19,3 +19,5 @@ def test_fail_add_integer():
 def test_alea_uniform():
     assert alea_uniform(3,4) > 3 and alea_uniform(3,4) < 4
     assert alea_uniform(4,3) > 3 and alea_uniform(4,3) < 4
+
+    

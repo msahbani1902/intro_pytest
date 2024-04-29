@@ -17,7 +17,7 @@ def test_error_when_list():
         inverse(["a","b","c","d"])      
 
 def test_lower_cases():
-    assert inverse("hello") = "olleh"
+    assert inverse("hello") == "olleh"
 
 def test_lower_cases_fiour_elements():
     assert inverse("hell") == "lleh"       
